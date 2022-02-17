@@ -85,8 +85,8 @@ for row in range (offset,max_row +1):
 		elemsLink = browser.find_elements_by_xpath("//a[@href]")
 
 	#Get the Position and Adress HTML element in an array
-	elemsPosition = browser.find_elements_by_xpath('//div[@class="entity-result__primary-subtitle t-14 t-black"]')
-	elemsAdress = browser.find_elements_by_xpath('//div[@class="entity-result__secondary-subtitle t-14"]')
+	elemsPosition = browser.find_elements_by_xpath('//div[@class="entity-result__primary-subtitle t-14 t-black t-normal"]')
+	elemsAdress = browser.find_elements_by_xpath('//div[@class="entity-result__secondary-subtitle t-14 t-normal"]')
 	
 	#Go through all the links found
 	for elemLink in elemsLink:
